@@ -1,8 +1,8 @@
-# iaas-custom-image-ubuntu-focal-wordpress (Work in Progress)
+# iaas-custom-image-ubuntu-focal-wordpress
 ubuntu 20.04 custom image for ibm cloud
 - removed unattended upgrades
-- installed docker & docker-compose
-- To be installed: nginx, wordpress
+- installed: docker & docker-compose
+- installed: nginx, wordpress
 
 ## how to test (create a custom image in us-south region)
 ```
