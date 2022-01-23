@@ -25,5 +25,5 @@ variable "image_name" {
 }
 
 variable "image_version" {
-  default = "0-0-0"
+  default = "0-1-0"
 }

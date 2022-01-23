@@ -95,6 +95,7 @@ resource "null_resource" "run_packer" {
     command = <<EOH
 cd ../packer
 ansible-galaxy install geerlingguy.docker
+ansible-galaxy install vantaworks.goss
 packer version
 packer init ./ubuntu_focal.pkr.hcl
 packer build \

@@ -35,6 +35,12 @@
   roles:
     - geerlingguy.docker
 
+- name: play Install the latest goss
+  hosts: default
+  become: true
+  roles:
+    - vantaworks.goss
+
 - name: play Install nginx and wordpress
   hosts: default
   become: true
