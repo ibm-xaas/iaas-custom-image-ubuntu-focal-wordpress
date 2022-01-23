@@ -83,4 +83,9 @@ build {
   provisioner "ansible" {
     playbook_file = var.ansible_file
   }
+  provisioner "goss" {
+    tests = [
+      "./goss/goss.yaml"
+    ]
+  }
 }

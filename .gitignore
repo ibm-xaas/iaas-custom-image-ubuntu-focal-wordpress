@@ -82,3 +82,7 @@ bundles/
 vendor/pkg/
 pyenv
 Vagrantfile
+
+# goss
+goss-spec.yaml
+debug-goss-spec.yaml
